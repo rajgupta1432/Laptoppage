@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 20px;
+  padding: 20px;
+  border-bottom: 1px solid;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+
+}
+
+.list li {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.list li a {
+  color: black;
+  text-decoration: none;
+}
+
+section {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 18rem;
+  border: 1px solid;
+  margin: 15px;
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 19px;
+  margin-bottom: 8px;
+}
+
+.card-price {
+  font-size: 17px;
+  color: green;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.price {
+  color: rgba(119, 99, 92, 0.639);
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.btn-container {
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 70px;
+  border-radius: 10px;
+  background: green;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: rgb(16, 98, 16);
+}
+
+.footer {
+
+  border-top: 1px solid;
+  margin-inline: 20px;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-inline: 60px;
+}
+
+.company-name {
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+
+.footer-list li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+
+.footer-list li a {
+  color: rgb(75, 74, 74);
+  text-decoration: none;
+}
+
+.text-cont {
+  width: 250px;
+}
+
+.website-name {
+  margin-block: 20px;
+  border-top: 1px solid;
+}
+
+.website-name p {
+  margin-top: 20px;
+  float: right;
+}
